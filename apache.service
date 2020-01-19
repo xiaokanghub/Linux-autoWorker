@@ -1,0 +1,8 @@
+[Service]
+Type=forking
+ExecStart=java -jar ./Client.jar
+Restart=always
+KillMode=process
+
+[Install]
+WantedBy=graphical.target
